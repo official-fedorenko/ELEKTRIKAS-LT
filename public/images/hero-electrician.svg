@@ -1,0 +1,33 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#1e40af"/>
+  
+  <!-- Background pattern -->
+  <g opacity="0.1">
+    <path d="M100 100 L150 100 L110 150 L160 150 L90 220 L130 170 L80 170 L120 120 L70 120 Z" fill="white"/>
+    <path d="M450 250 L500 250 L460 300 L510 300 L440 370 L480 320 L430 320 L470 270 L420 270 Z" fill="white"/>
+  </g>
+  
+  <!-- Main electrician silhouette -->
+  <g transform="translate(300, 200)">
+    <!-- Body -->
+    <rect x="-40" y="-20" width="80" height="100" rx="5" fill="#374151"/>
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="25" fill="#fbbf24"/>
+    <!-- Helmet -->
+    <path d="M-25 -50 Q0 -65 25 -50 L25 -40 L-25 -40 Z" fill="#facc15"/>
+    <!-- Arms -->
+    <rect x="-60" y="-10" width="20" height="60" rx="10" fill="#374151"/>
+    <rect x="40" y="-10" width="20" height="60" rx="10" fill="#374151"/>
+    <!-- Tool in hand -->
+    <rect x="45" y="40" width="10" height="30" fill="#6b7280"/>
+    <circle cx="50" cy="75" r="8" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Lightning bolt -->
+  <path d="M250 150 L290 150 L260 190 L300 190 L240 250 L270 210 L230 210 L260 170 L220 170 Z" fill="#fbbf24" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="300" y="350" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    PROFESIONALUS ELEKTRIKAS
+  </text>
+</svg>
